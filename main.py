@@ -8,7 +8,7 @@ def Download(link):
     try:
         yt.download(output_path= save_folder)
     except:
-        print("Error")
+        print("Error!")
 
 link = input("Ingresa el link de youtube: ")
 
